@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  background-color: #09090e;
+  font-family: "Work Sans", sans-serif;
+  overflow: hidden;
+}
+.top-nav {
+  display: flex;
+  margin: 2rem;
+  color: #a7a7a8;
+  justify-content: flex-end;
+}
+.download-cv,
+.contact-me {
+  padding: 0 20px 0 20px;
+  cursor: pointer;
+}
+.hero-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+}
+.dp-pic {
+  height: 100%;
+  width: 30%;
+}
+.banner-name {
+  position: absolute;
+  font-weight: 900;
+  letter-spacing: 25px;
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  top: 15%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+}
+.white-heading {
+  color: #ffffff;
+}
+.blue-heading {
+  color: #1212e9;
+}
